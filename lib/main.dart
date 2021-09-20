@@ -115,7 +115,7 @@ class _MyAppState extends State<MyApp> {
                     child: Row(                     
                       children: const [
                         Text(
-                          '9.00',
+                          '\$9.00',
                           style: TextStyle(
                             fontSize: 24, 
                             fontWeight: FontWeight.bold, 
@@ -126,14 +126,14 @@ class _MyAppState extends State<MyApp> {
                           width: 16,
                         ),
                         Text(
-                          '18.00',
+                          '\$18.00',
                           style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.bold,
                               color: Colors.grey,
                               decoration: TextDecoration.lineThrough),
                           textAlign: TextAlign.left,
-                        ),                   
+                        ),
                       ],
                     ),
                   ),
